@@ -1,5 +1,10 @@
+//
+//  AppDelegate.swift
+//  FuelCalculator
+//
 //  Created by Roman Cebula on 27/01/2019.
 //  Copyright © 2019 Roman Cebula. All rights reserved.
+//
 
 import UIKit
 import GoogleMaps

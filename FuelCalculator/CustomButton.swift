@@ -1,5 +1,10 @@
+//
+//  CustomButton.swift
+//  FuelCalculator
+//
 //  Created by Roman Cebula on 08/03/2019.
 //  Copyright © 2019 Roman Cebula. All rights reserved.
+//
 
 import UIKit
 
@@ -26,6 +31,7 @@ class CustomButton: UIButton {
         layer.shadowRadius  = 8
         layer.shadowColor   = UIColor.white.cgColor
         layer.shadowOpacity = 0.5
+        
     }
     
     func shakeButton() {
@@ -45,5 +51,6 @@ class CustomButton: UIButton {
         shake.toValue = toValue
         
         layer.add(shake, forKey: "position")
+        
     }
 }
