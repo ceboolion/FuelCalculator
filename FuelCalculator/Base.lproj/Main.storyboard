@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="15400" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
-    <device id="retina5_9" orientation="portrait" appearance="light"/>
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15404"/>
@@ -13,67 +13,11 @@
             <objects>
                 <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="FuelCalculator" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <textField opaque="NO" clipsSubviews="YES" alpha="0.64999997615814209" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Fuel price" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="hyG-na-L0O">
-                                <rect key="frame" x="24" y="155" width="327" height="43"/>
-                                <color key="backgroundColor" red="0.92143100499999997" green="0.92145264149999995" blue="0.92144101860000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <fontDescription key="fontDescription" name="AvenirNext-Regular" family="Avenir Next" pointSize="25"/>
-                                <textInputTraits key="textInputTraits" keyboardType="decimalPad" keyboardAppearance="alert"/>
-                            </textField>
-                            <textField opaque="NO" clipsSubviews="YES" alpha="0.65000000000000002" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Distance in km" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="sXv-jq-aMt">
-                                <rect key="frame" x="24" y="75" width="327" height="43"/>
-                                <color key="backgroundColor" red="0.92143100499999997" green="0.92145264149999995" blue="0.92144101860000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <fontDescription key="fontDescription" name="AvenirNext-Regular" family="Avenir Next" pointSize="25"/>
-                                <textInputTraits key="textInputTraits" keyboardType="decimalPad" keyboardAppearance="alert" enablesReturnKeyAutomatically="YES"/>
-                            </textField>
-                            <textField opaque="NO" clipsSubviews="YES" alpha="0.64999997615814209" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Fuel consumption" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="w2M-hk-lIN">
-                                <rect key="frame" x="24" y="236" width="327" height="43"/>
-                                <color key="backgroundColor" red="0.92143100499999997" green="0.92145264149999995" blue="0.92144101860000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <fontDescription key="fontDescription" name="AvenirNext-Regular" family="Avenir Next" pointSize="25"/>
-                                <textInputTraits key="textInputTraits" keyboardType="decimalPad" keyboardAppearance="alert" returnKeyType="continue"/>
-                            </textField>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="fuel2" translatesAutoresizingMaskIntoConstraints="NO" id="g7D-tm-9PT">
-                                <rect key="frame" x="-262.5" y="347" width="900" height="220"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </imageView>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="IFC-0F-yRa" customClass="CustomButton" customModule="FuelCalculator" customModuleProvider="target">
-                                <rect key="frame" x="37.666666666666657" y="691" width="300" height="67"/>
-                                <constraints>
-                                    <constraint firstAttribute="width" constant="300" id="P4M-Ov-bvm"/>
-                                </constraints>
-                                <fontDescription key="fontDescription" name="AvenirNext-Bold" family="Avenir Next" pointSize="40"/>
-                                <state key="normal" title="CALCULATE">
-                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                </state>
-                                <connections>
-                                    <action selector="calculatePressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Jsv-Vn-nkU"/>
-                                </connections>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="coO-l9-aHO">
-                                <rect key="frame" x="114.66666666666669" y="287" width="146" height="36"/>
-                                <fontDescription key="fontDescription" name="AvenirNext-Regular" family="Avenir Next" pointSize="17"/>
-                                <state key="normal" title="CLEAR ALL FIELDS">
-                                    <color key="titleColor" red="0.93725490199999995" green="0.93725490199999995" blue="0.95686274510000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                </state>
-                                <connections>
-                                    <action selector="clearAllFields:" destination="BYZ-38-t0r" eventType="touchUpInside" id="IQb-ZW-MP6"/>
-                                </connections>
-                            </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Kzi-SD-wJI">
-                                <rect key="frame" x="24" y="326" width="327" height="32"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="32" id="j3X-IN-6H3"/>
-                                    <constraint firstAttribute="width" constant="327" id="m95-hg-V3D"/>
-                                </constraints>
-                                <fontDescription key="fontDescription" name="AvenirNext-Bold" family="Avenir Next" pointSize="20"/>
-                                <color key="textColor" red="1" green="0.14913141730000001" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="c6K-kB-GAX">
-                                <rect key="frame" x="141" y="31" width="94" height="36"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="c6K-kB-GAX">
+                                <rect key="frame" x="160" y="54" width="94" height="36"/>
                                 <fontDescription key="fontDescription" name="AvenirNext-Regular" family="Avenir Next" pointSize="17"/>
                                 <state key="normal" title="SHOW MAP">
                                     <color key="titleColor" red="0.93725490199999995" green="0.93725490199999995" blue="0.95686274510000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -84,24 +28,87 @@
                                     <segue destination="NAm-9K-9D7" kind="show" identifier="goToMap" id="W4C-43-z93"/>
                                 </connections>
                             </button>
+                            <textField opaque="NO" clipsSubviews="YES" alpha="0.65000000000000002" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Distance in km" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="sXv-jq-aMt">
+                                <rect key="frame" x="20" y="110" width="374" height="43"/>
+                                <color key="backgroundColor" red="0.92143100499999997" green="0.92145264149999995" blue="0.92144101860000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" name="AvenirNext-Regular" family="Avenir Next" pointSize="25"/>
+                                <textInputTraits key="textInputTraits" keyboardType="decimalPad" keyboardAppearance="alert" enablesReturnKeyAutomatically="YES"/>
+                            </textField>
+                            <textField opaque="NO" clipsSubviews="YES" alpha="0.64999997615814209" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Fuel price" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="hyG-na-L0O">
+                                <rect key="frame" x="20" y="173" width="374" height="43"/>
+                                <color key="backgroundColor" red="0.92143100499999997" green="0.92145264149999995" blue="0.92144101860000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" name="AvenirNext-Regular" family="Avenir Next" pointSize="25"/>
+                                <textInputTraits key="textInputTraits" keyboardType="decimalPad" keyboardAppearance="alert"/>
+                            </textField>
+                            <textField opaque="NO" clipsSubviews="YES" alpha="0.64999997615814209" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Fuel consumption" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="w2M-hk-lIN">
+                                <rect key="frame" x="20" y="236" width="374" height="43"/>
+                                <color key="backgroundColor" red="0.92143100499999997" green="0.92145264149999995" blue="0.92144101860000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" name="AvenirNext-Regular" family="Avenir Next" pointSize="25"/>
+                                <textInputTraits key="textInputTraits" keyboardType="decimalPad" keyboardAppearance="alert" returnKeyType="continue" enablesReturnKeyAutomatically="YES"/>
+                            </textField>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="coO-l9-aHO">
+                                <rect key="frame" x="134" y="299" width="146" height="36"/>
+                                <fontDescription key="fontDescription" name="AvenirNext-Regular" family="Avenir Next" pointSize="17"/>
+                                <state key="normal" title="CLEAR ALL FIELDS">
+                                    <color key="titleColor" red="0.93725490199999995" green="0.93725490199999995" blue="0.95686274510000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="clearAllFields:" destination="BYZ-38-t0r" eventType="touchUpInside" id="IQb-ZW-MP6"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Kzi-SD-wJI">
+                                <rect key="frame" x="43.5" y="355" width="327" height="32"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="32" id="j3X-IN-6H3"/>
+                                    <constraint firstAttribute="width" constant="327" id="m95-hg-V3D"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="AvenirNext-Bold" family="Avenir Next" pointSize="20"/>
+                                <color key="textColor" red="1" green="0.14913141730000001" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="IFC-0F-yRa" customClass="CustomButton" customModule="FuelCalculator" customModuleProvider="target">
+                                <rect key="frame" x="67" y="785" width="280" height="67"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="280" id="wdB-lw-kaT"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="AvenirNext-Bold" family="Avenir Next" pointSize="40"/>
+                                <state key="normal" title="CALCULATE">
+                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <connections>
+                                    <action selector="calculatePressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Jsv-Vn-nkU"/>
+                                </connections>
+                            </button>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="fuel2" translatesAutoresizingMaskIntoConstraints="NO" id="g7D-tm-9PT">
+                                <rect key="frame" x="97" y="407" width="220" height="220"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="220" id="CpO-vp-s0O"/>
+                                    <constraint firstAttribute="height" constant="220" id="pDx-3X-zEC"/>
+                                </constraints>
+                            </imageView>
                         </subviews>
                         <color key="backgroundColor" red="0.23137254901960785" green="0.40392156862745099" blue="0.40784313725490196" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
-                            <constraint firstItem="coO-l9-aHO" firstAttribute="top" secondItem="w2M-hk-lIN" secondAttribute="bottom" constant="8" id="2K9-Rb-DCs"/>
-                            <constraint firstItem="hyG-na-L0O" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="24" id="5HK-2D-kv3"/>
-                            <constraint firstAttribute="trailing" secondItem="hyG-na-L0O" secondAttribute="trailing" constant="24" id="BOa-kq-6ch"/>
-                            <constraint firstItem="coO-l9-aHO" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="DTV-K6-Wyg"/>
-                            <constraint firstItem="Kzi-SD-wJI" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="Djx-wg-Pcy"/>
-                            <constraint firstItem="IFC-0F-yRa" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="Grc-Le-LhB"/>
-                            <constraint firstAttribute="trailing" secondItem="sXv-jq-aMt" secondAttribute="trailing" constant="24" id="JiR-HV-lwL"/>
-                            <constraint firstItem="w2M-hk-lIN" firstAttribute="top" secondItem="hyG-na-L0O" secondAttribute="bottom" constant="38" id="OUm-g8-v70"/>
-                            <constraint firstItem="sXv-jq-aMt" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" constant="75" id="T0c-gp-RW6"/>
-                            <constraint firstItem="w2M-hk-lIN" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="24" id="Xza-im-uvk"/>
-                            <constraint firstItem="Kzi-SD-wJI" firstAttribute="top" secondItem="coO-l9-aHO" secondAttribute="bottom" constant="3" id="dC8-dD-hCG"/>
-                            <constraint firstItem="hyG-na-L0O" firstAttribute="top" secondItem="sXv-jq-aMt" secondAttribute="bottom" constant="37" id="hFg-u0-sO0"/>
-                            <constraint firstItem="sXv-jq-aMt" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="24" id="o7Z-o4-vWH"/>
-                            <constraint firstAttribute="trailing" secondItem="w2M-hk-lIN" secondAttribute="trailing" constant="24" id="xZn-ym-6le"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="IFC-0F-yRa" secondAttribute="bottom" constant="20" id="zOZ-EP-8gN"/>
+                            <constraint firstItem="g7D-tm-9PT" firstAttribute="top" secondItem="Kzi-SD-wJI" secondAttribute="bottom" constant="20" id="6yC-ah-yfD"/>
+                            <constraint firstItem="c6K-kB-GAX" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="9bP-0Z-RTi"/>
+                            <constraint firstItem="hyG-na-L0O" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="ByS-2K-O7o"/>
+                            <constraint firstItem="coO-l9-aHO" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="Cbf-3z-DjY"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="IFC-0F-yRa" secondAttribute="bottom" constant="10" id="Chx-Gu-85w"/>
+                            <constraint firstItem="IFC-0F-yRa" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="EU9-AK-xCe"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="sXv-jq-aMt" secondAttribute="trailing" constant="20" id="GNs-mb-Irh"/>
+                            <constraint firstItem="g7D-tm-9PT" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="Nv1-aL-bwP"/>
+                            <constraint firstItem="w2M-hk-lIN" firstAttribute="top" secondItem="hyG-na-L0O" secondAttribute="bottom" constant="20" id="PPM-tw-1d8"/>
+                            <constraint firstItem="hyG-na-L0O" firstAttribute="top" secondItem="sXv-jq-aMt" secondAttribute="bottom" constant="20" id="Ywp-QJ-SLp"/>
+                            <constraint firstItem="Kzi-SD-wJI" firstAttribute="top" secondItem="coO-l9-aHO" secondAttribute="bottom" constant="20" id="a9B-Lt-xXD"/>
+                            <constraint firstItem="c6K-kB-GAX" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="10" id="b5Z-my-qPs"/>
+                            <constraint firstItem="Kzi-SD-wJI" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="clm-9R-HQf"/>
+                            <constraint firstItem="sXv-jq-aMt" firstAttribute="top" secondItem="c6K-kB-GAX" secondAttribute="bottom" constant="20" id="d2N-9I-BMX"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="hyG-na-L0O" secondAttribute="trailing" constant="20" id="ekh-0r-vg7"/>
+                            <constraint firstItem="coO-l9-aHO" firstAttribute="top" secondItem="w2M-hk-lIN" secondAttribute="bottom" constant="20" id="hya-Tw-Xn9"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="w2M-hk-lIN" secondAttribute="trailing" constant="20" id="qJS-0y-HpX"/>
+                            <constraint firstItem="sXv-jq-aMt" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="tHW-CO-Rzj"/>
+                            <constraint firstItem="sXv-jq-aMt" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="usm-rm-UMw"/>
+                            <constraint firstItem="w2M-hk-lIN" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="wI4-Lx-HD7"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
@@ -123,15 +130,18 @@
             <objects>
                 <viewController id="nDU-mf-I5r" customClass="ResultViewController" customModule="FuelCalculator" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="PPo-e2-xZe">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="758"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="fuel2" translatesAutoresizingMaskIntoConstraints="NO" id="ofm-tg-JkV">
-                                <rect key="frame" x="-263" y="349" width="900" height="220"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="fuel2" translatesAutoresizingMaskIntoConstraints="NO" id="ofm-tg-JkV">
+                                <rect key="frame" x="97" y="311" width="220" height="220"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="220" id="12q-Rc-OLf"/>
+                                    <constraint firstAttribute="width" constant="220" id="PX8-Lw-X7r"/>
+                                </constraints>
                             </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="i6W-aO-x91">
-                                <rect key="frame" x="16" y="78" width="343" height="200"/>
+                                <rect key="frame" x="16" y="78" width="382" height="200"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="200" id="2EE-Ap-3qV"/>
                                 </constraints>
@@ -140,7 +150,7 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="kuz-l6-Fbe" customClass="CustomButton" customModule="FuelCalculator" customModuleProvider="target">
-                                <rect key="frame" x="62.666666666666657" y="637" width="249.99999999999997" height="67"/>
+                                <rect key="frame" x="82" y="721" width="250" height="67"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="250" id="ISd-G6-3iZ"/>
                                 </constraints>
@@ -156,7 +166,9 @@
                         </subviews>
                         <color key="backgroundColor" red="0.23137254900000001" green="0.4039215686" blue="0.40784313729999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
+                            <constraint firstItem="ofm-tg-JkV" firstAttribute="centerX" secondItem="PPo-e2-xZe" secondAttribute="centerX" id="3i2-g2-crn"/>
                             <constraint firstItem="i6W-aO-x91" firstAttribute="top" secondItem="PPo-e2-xZe" secondAttribute="top" constant="78" id="DYe-6t-lsH"/>
+                            <constraint firstItem="ofm-tg-JkV" firstAttribute="centerY" secondItem="PPo-e2-xZe" secondAttribute="centerY" id="K5P-C6-AcC"/>
                             <constraint firstItem="i6W-aO-x91" firstAttribute="leading" secondItem="PPo-e2-xZe" secondAttribute="leading" constant="16" id="Zvt-d3-xQc"/>
                             <constraint firstAttribute="trailing" secondItem="i6W-aO-x91" secondAttribute="trailing" constant="16" id="gSp-Oi-La5"/>
                             <constraint firstItem="kuz-l6-Fbe" firstAttribute="centerX" secondItem="PPo-e2-xZe" secondAttribute="centerX" id="gTA-NB-pGH"/>
@@ -170,22 +182,22 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Gjq-9l-5h6" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="860" y="24"/>
+            <point key="canvasLocation" x="860" y="23.645320197044335"/>
         </scene>
         <!--Map View-->
         <scene sceneID="hx5-XP-cGq">
             <objects>
                 <viewController id="NAm-9K-9D7" customClass="MapView" customModule="FuelCalculator" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="rRy-rq-rNW">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="758"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <mapView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" mapType="standard" translatesAutoresizingMaskIntoConstraints="NO" id="6UL-jK-dnL">
-                                <rect key="frame" x="0.0" y="0.0" width="375" height="758"/>
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                                 <color key="backgroundColor" red="0.23137254901960785" green="0.40392156862745099" blue="0.40784313725490196" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                             </mapView>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="H6B-0f-QJK" customClass="GoBack" customModule="FuelCalculator" customModuleProvider="target">
-                                <rect key="frame" x="62.666666666666657" y="657" width="249.99999999999997" height="67"/>
+                                <rect key="frame" x="82" y="741" width="250" height="67"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="250" id="vzt-ia-ntK"/>
                                 </constraints>
@@ -209,6 +221,7 @@
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="gvU-wa-7dh"/>
                     </view>
+                    <navigationItem key="navigationItem" id="R37-F8-iNS"/>
                     <connections>
                         <outlet property="mapView" destination="6UL-jK-dnL" id="xAh-XX-y6v"/>
                     </connections>
