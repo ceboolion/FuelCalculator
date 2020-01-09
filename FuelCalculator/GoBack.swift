@@ -1,10 +1,5 @@
-//
-//  GoBack.swift
-//  FuelCalculator
-//
 //  Created by Roman Cebula on 13/03/2019.
 //  Copyright © 2019 Roman Cebula. All rights reserved.
-//
 
 import UIKit
 
@@ -22,7 +17,6 @@ class GoBack: UIButton {
     
     func setUpButton() {
         buttonDesign()
-       
     }
     
     func buttonDesign() {
@@ -31,7 +25,5 @@ class GoBack: UIButton {
         layer.shadowRadius  = 8
         layer.shadowColor   = UIColor.white.cgColor
         layer.shadowOpacity = 0.9
-        
     }
-
 }

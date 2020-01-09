@@ -1,27 +1,18 @@
-//
-//  ViewController.swift
-//  FuelCalculator
-//
 //  Created by Roman Cebula on 27/01/2019.
 //  Copyright © 2019 Roman Cebula. All rights reserved.
-//
 
 import UIKit
 
 class ViewController: UIViewController, UITextFieldDelegate {
     
     var calculateButtonDesign = CustomButton()
-    
- 
-    
+
     @IBOutlet weak var calculateButton: UIButton!
     @IBOutlet weak var kilometersValue: UITextField!
     @IBOutlet weak var fuelPrice: UITextField!
     @IBOutlet weak var fuelConsumption: UITextField!
     @IBOutlet weak var result: UILabel!
-    
-       
-    
+  
     var selectedFuelConsumption: Double?
     var kilometersValueField: Double?
     var fuelPriceField: Double?
@@ -40,24 +31,15 @@ class ViewController: UIViewController, UITextFieldDelegate {
         fuelConsumption.delegate = self
         shakeButton()
         self.hideKeyboard()
-        
     }
-    
-    
-   
-    
     
     @IBAction func clearAllFields(_ sender: UIButton) {
         clearAllFileds()
-        
     }
     
-
     @IBAction func calculatePressed(_ sender: CustomButton) {
-               
         calculateTrip()
         shakeButton()
-        
     }
     
     func calculateTrip() {
@@ -69,25 +51,19 @@ class ViewController: UIViewController, UITextFieldDelegate {
             finalResult = "Fill all required fields"
             result.text = finalResult
         } else {
-            
             result.text = nil
             calculations = (kilometersValueField! * fuelConsumptionField!) / 100
             finalAmount = calculations! * fuelPriceField!
             finalInformation = "The amount of travel is: " + String(format:"%.2f", finalAmount!) + " zł"
             performSegue(withIdentifier: "nextScreen", sender: self)
             print("Ilość litrów potrzebnych na wycieczkę to: " + finalInformation!)
-        
-            
         }
-        
-        
     }
     
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
         if segue.identifier == "nextScreen" {
             let resultVC = segue.destination as! ResultViewController
             resultVC.data = finalInformation
-            
         }
     }
     
@@ -108,7 +84,6 @@ class ViewController: UIViewController, UITextFieldDelegate {
         fuelPrice.text = nil
         fuelConsumption.text = nil
         finalInformation = nil
-        
     }
     
     // Addition of a shake to the button
@@ -130,39 +105,27 @@ class ViewController: UIViewController, UITextFieldDelegate {
         shake.toValue = toValue
         
         calculateButton.layer.add(shake, forKey: "position")
-        
     }
-    
-    
-    
     // Function that validates UITEXTFIELD
     
     func textField(_ textField: UITextField, shouldChangeCharactersIn range: NSRange, replacementString string: String) -> Bool {
-        
-       
-        
+
         let allowedCharacters = "0123456789.,"
         let allowedCaracterSet = CharacterSet(charactersIn: allowedCharacters)
         let typedCharactersSet = CharacterSet(charactersIn: string)
         return allowedCaracterSet.isSuperset(of: typedCharactersSet)
-        
     }
     
     @IBAction func goToMapPressed(_ sender: UIButton) {
         
         performSegue(withIdentifier: "goToMap", sender: self)
-        
     }
-    
-    
-
 }
 
 extension UIViewController{
     func hideKeyboard(){
         let tap: UITapGestureRecognizer = UITapGestureRecognizer(target: self, action: #selector(dismissKeyboard))
         view.addGestureRecognizer(tap)
-        
     }
     
     @objc func dismissKeyboard() {

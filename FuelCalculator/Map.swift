@@ -1,10 +1,5 @@
-//
-//  Map.swift
-//  FuelCalculator
-//
 //  Created by Roman Cebula on 11/03/2019.
 //  Copyright © 2019 Roman Cebula. All rights reserved.
-//
 
 import UIKit
 import MapKit
@@ -21,32 +16,24 @@ class MapView: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         checkLocationServices()
-        
-        
-        
     }
     
     func setUpLocationMenager() {
-        
         locationManager.delegate = self
         locationManager.desiredAccuracy = kCLLocationAccuracyBest
-        
     }
     
     func centerViewOnUserLocation() {
-        
         if let location = locationManager.location?.coordinate{
             let region = MKCoordinateRegion.init(center: location, latitudinalMeters: regionInMeters, longitudinalMeters: regionInMeters)
             mapView.setRegion(region, animated: true)
         }
-        
     }
     
     func checkLocationServices() {
         if CLLocationManager.locationServicesEnabled(){
             setUpLocationMenager()
             checkLocationAuthorization()
-            
         } else {
             
         }
@@ -71,12 +58,9 @@ class MapView: UIViewController {
         }
     }
     
-    
-    
     @IBAction func goBack(_ sender: GoBack) {
         dismiss(animated: true, completion: nil)
     }
-    
 }
 
 extension MapView: CLLocationManagerDelegate {
@@ -93,9 +77,7 @@ extension MapView: CLLocationManagerDelegate {
     
     func locationManager(_ manager: CLLocationManager, didChangeAuthorization status: CLAuthorizationStatus) {
         checkLocationAuthorization()
-        
     }
-    
 }
 
 
