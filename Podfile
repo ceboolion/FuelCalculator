@@ -6,8 +6,6 @@ target 'FuelCalculator' do
   use_frameworks!
 
   # Pods for FuelCalculator
-    pod 'GoogleMaps'
-    pod 'GooglePlaces'
-    pod 'SVProgressHUD'
+
 
 end

@@ -6,414 +6,126 @@
 	objectVersion = 51;
 	objects = {
 
-/* Begin PBXAggregateTarget section */
-		1AD73B07D0A43E21F0EE0F993215B9D8 /* GooglePlaces */ = {
-			isa = PBXAggregateTarget;
-			buildConfigurationList = 2FC2AC47FDB0310285CE777F18CD1532 /* Build configuration list for PBXAggregateTarget "GooglePlaces" */;
-			buildPhases = (
-			);
-			dependencies = (
-				D42315111F400C0605ACCD6B5CAF2178 /* PBXTargetDependency */,
-			);
-			name = GooglePlaces;
-		};
-		BCE3DE68053C99B18AAD56BE1F98BD73 /* GoogleMaps */ = {
-			isa = PBXAggregateTarget;
-			buildConfigurationList = 46921981F609C5BA3CB72EC4EA41299D /* Build configuration list for PBXAggregateTarget "GoogleMaps" */;
-			buildPhases = (
-			);
-			dependencies = (
-			);
-			name = GoogleMaps;
-		};
-/* End PBXAggregateTarget section */
-
 /* Begin PBXBuildFile section */
-		04FCEEE48704DE99536B6EB963BCAA1B /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 93CC5787C4D7225262138F10874B1FB4 /* QuartzCore.framework */; };
-		081BA333A15E24126716F36EEC00B6AC /* SVProgressHUD-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 5D1DBD467581AB9D1C9D48C3556F1B96 /* SVProgressHUD-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		2E9A61BCDDFE8DD14876E02177E64F31 /* SVProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = EE9324DDAEE1E74091A9B9FC15276941 /* SVProgressHUD.m */; };
-		2F6537DCD4D13B2E438B0E18A8EF2106 /* Pods-FuelCalculator-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 56189219609E57F80562E154606F0B48 /* Pods-FuelCalculator-dummy.m */; };
-		30E621A7B74B9B1A8B543986ED17468E /* SVRadialGradientLayer.h in Headers */ = {isa = PBXBuildFile; fileRef = F8B861DC9AC73E605B80423CB6B43B2D /* SVRadialGradientLayer.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		3D73B98EE5A3218CFCA1D7239B6E7CA9 /* SVProgressHUD.h in Headers */ = {isa = PBXBuildFile; fileRef = 4606B0EE90359490D2267776ED099A78 /* SVProgressHUD.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		543A36E155C485A45E0765742877BF5C /* SVRadialGradientLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 67D6EC2A9E7324D7E981E0781440F0AD /* SVRadialGradientLayer.m */; };
-		612B9D340C9ABA4AFFC8756CA33F4155 /* SVProgressAnimatedView.h in Headers */ = {isa = PBXBuildFile; fileRef = 262621781B054FC20273AE6ADC1CB81B /* SVProgressAnimatedView.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		668298A342F33B1ACABA0D7C646F2024 /* SVProgressAnimatedView.m in Sources */ = {isa = PBXBuildFile; fileRef = 236E83466B40CCEDA893EED807536C59 /* SVProgressAnimatedView.m */; };
-		7E32820437F64F76E0268810AC920CCD /* SVIndefiniteAnimatedView.m in Sources */ = {isa = PBXBuildFile; fileRef = 66D4B9DBFE2405B2D675C7E052FD569C /* SVIndefiniteAnimatedView.m */; };
-		9A9431811E8EF235FE4A80461D396A8D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73A87EFC1E3074BF96CE56BFE8D51A20 /* Foundation.framework */; };
-		9C82E472E4AA7646436DEAD18A2CA2EC /* SVProgressHUD-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1774581CC35C4C3EBBA6391CA1518D47 /* SVProgressHUD-dummy.m */; };
-		B42ABCFBD8FDC4E45E72CCD9A2D734DF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73A87EFC1E3074BF96CE56BFE8D51A20 /* Foundation.framework */; };
-		C4FC83C6D128AC248AB478F593832A63 /* SVProgressHUD.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 859B862DED91957C4FEA7953795E6C7B /* SVProgressHUD.bundle */; };
-		EE260CA1142E9BD957E6533EEEEE9531 /* Pods-FuelCalculator-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 0967A969E120C088AC8AD4EF78B6A987 /* Pods-FuelCalculator-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		F01C37E89602CF7F32BEC363F8989837 /* SVIndefiniteAnimatedView.h in Headers */ = {isa = PBXBuildFile; fileRef = 9684B2F5901D610CEADAED8273A8B5BD /* SVIndefiniteAnimatedView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		676BDC8891036BA21AA74CAD0A54BD14 /* Pods-FuelCalculator-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 76C460A619602B327F3BC9F3A61A4832 /* Pods-FuelCalculator-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AF55DEE23DF52F8B78BDD7F280C5A27E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		E3CCC02F9B3E032DFCE02900CD1D93AC /* Pods-FuelCalculator-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 28D2A8FDAAE0C9003C8C78B9025A853D /* Pods-FuelCalculator-dummy.m */; };
 /* End PBXBuildFile section */
 
-/* Begin PBXContainerItemProxy section */
-		15BE3D82407553CBC163C44A5330C360 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = BCE3DE68053C99B18AAD56BE1F98BD73;
-			remoteInfo = GoogleMaps;
-		};
-		3D0E98F3739B86F2500EF74F7D1C37EE /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 1AD73B07D0A43E21F0EE0F993215B9D8;
-			remoteInfo = GooglePlaces;
-		};
-		6EB1C2DD30E6564FC3135C9E8002D8F7 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = BCE3DE68053C99B18AAD56BE1F98BD73;
-			remoteInfo = GoogleMaps;
-		};
-		CE03D656F75D368C05D1EBA52B4EF797 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 91754810711B8157AD94A1FA3EAACECC;
-			remoteInfo = SVProgressHUD;
-		};
-/* End PBXContainerItemProxy section */
-
 /* Begin PBXFileReference section */
-		0967A969E120C088AC8AD4EF78B6A987 /* Pods-FuelCalculator-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-FuelCalculator-umbrella.h"; sourceTree = "<group>"; };
-		10A38D3843BBC7160F4BCFB873D689DE /* GooglePlaces.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = GooglePlaces.bundle; path = Frameworks/GooglePlaces.framework/Resources/GooglePlaces.bundle; sourceTree = "<group>"; };
-		1774581CC35C4C3EBBA6391CA1518D47 /* SVProgressHUD-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SVProgressHUD-dummy.m"; sourceTree = "<group>"; };
-		1B33F90D3D2E9F95A042D2324CC97E67 /* GoogleMaps.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GoogleMaps.framework; path = Maps/Frameworks/GoogleMaps.framework; sourceTree = "<group>"; };
-		236E83466B40CCEDA893EED807536C59 /* SVProgressAnimatedView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SVProgressAnimatedView.m; path = SVProgressHUD/SVProgressAnimatedView.m; sourceTree = "<group>"; };
-		262621781B054FC20273AE6ADC1CB81B /* SVProgressAnimatedView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SVProgressAnimatedView.h; path = SVProgressHUD/SVProgressAnimatedView.h; sourceTree = "<group>"; };
-		2B752814A1E969EB960E3840C89AACFE /* GooglePlaces.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = GooglePlaces.xcconfig; sourceTree = "<group>"; };
-		4606B0EE90359490D2267776ED099A78 /* SVProgressHUD.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SVProgressHUD.h; path = SVProgressHUD/SVProgressHUD.h; sourceTree = "<group>"; };
-		56189219609E57F80562E154606F0B48 /* Pods-FuelCalculator-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-FuelCalculator-dummy.m"; sourceTree = "<group>"; };
-		5D1DBD467581AB9D1C9D48C3556F1B96 /* SVProgressHUD-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SVProgressHUD-umbrella.h"; sourceTree = "<group>"; };
-		64D2AD87B5F1CFE50249D42054B4289B /* Pods-FuelCalculator.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FuelCalculator.release.xcconfig"; sourceTree = "<group>"; };
-		66D4B9DBFE2405B2D675C7E052FD569C /* SVIndefiniteAnimatedView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SVIndefiniteAnimatedView.m; path = SVProgressHUD/SVIndefiniteAnimatedView.m; sourceTree = "<group>"; };
-		67D6EC2A9E7324D7E981E0781440F0AD /* SVRadialGradientLayer.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SVRadialGradientLayer.m; path = SVProgressHUD/SVRadialGradientLayer.m; sourceTree = "<group>"; };
-		6CE5FDF417892753A6FC5F5D95042026 /* Pods-FuelCalculator.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-FuelCalculator.modulemap"; sourceTree = "<group>"; };
-		73A87EFC1E3074BF96CE56BFE8D51A20 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		778BAAF5C6820A26B98452EC74323C9A /* SVProgressHUD.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SVProgressHUD.framework; path = SVProgressHUD.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		8465C1457A105E8C30F94AB855A88EBF /* Pods-FuelCalculator-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-FuelCalculator-Info.plist"; sourceTree = "<group>"; };
-		859B862DED91957C4FEA7953795E6C7B /* SVProgressHUD.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = SVProgressHUD.bundle; path = SVProgressHUD/SVProgressHUD.bundle; sourceTree = "<group>"; };
-		93CC5787C4D7225262138F10874B1FB4 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/QuartzCore.framework; sourceTree = DEVELOPER_DIR; };
-		94E7CE296AE7363FFB677FC08467DE4A /* SVProgressHUD.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SVProgressHUD.xcconfig; sourceTree = "<group>"; };
-		9684B2F5901D610CEADAED8273A8B5BD /* SVIndefiniteAnimatedView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SVIndefiniteAnimatedView.h; path = SVProgressHUD/SVIndefiniteAnimatedView.h; sourceTree = "<group>"; };
+		28D2A8FDAAE0C9003C8C78B9025A853D /* Pods-FuelCalculator-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-FuelCalculator-dummy.m"; sourceTree = "<group>"; };
+		3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		3990E95EED0465F22A7C93AACB2D8FBB /* Pods-FuelCalculator.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-FuelCalculator.modulemap"; sourceTree = "<group>"; };
+		620DA927A024AF86A20A9DD0732A68BA /* Pods-FuelCalculator-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-FuelCalculator-acknowledgements.plist"; sourceTree = "<group>"; };
+		6530A8C0C0B76225B5E3BC1CF048E6CD /* Pods_FuelCalculator.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_FuelCalculator.framework; path = "Pods-FuelCalculator.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		76C460A619602B327F3BC9F3A61A4832 /* Pods-FuelCalculator-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-FuelCalculator-umbrella.h"; sourceTree = "<group>"; };
+		95E6A25D0109A7FEEE01F5E1E64C8D04 /* Pods-FuelCalculator-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-FuelCalculator-acknowledgements.markdown"; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		AAF5C44654A6020324DA984CF2734A74 /* GoogleMapsCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GoogleMapsCore.framework; path = Maps/Frameworks/GoogleMapsCore.framework; sourceTree = "<group>"; };
-		AFC1C89C8CE6BFAC4561D9ABAFBCB4D7 /* Pods-FuelCalculator.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FuelCalculator.debug.xcconfig"; sourceTree = "<group>"; };
-		B79F9EB9904A4BAADBF301B775D8116C /* Pods-FuelCalculator-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-FuelCalculator-frameworks.sh"; sourceTree = "<group>"; };
-		B8680A4C70289D9501316A04DD258A48 /* GoogleMaps.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = GoogleMaps.bundle; path = Maps/Frameworks/GoogleMaps.framework/Resources/GoogleMaps.bundle; sourceTree = "<group>"; };
-		BB9CE32697FA058CA978130C493C8F89 /* Pods_FuelCalculator.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_FuelCalculator.framework; path = "Pods-FuelCalculator.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		BC304D2C3C53FA896A653368872538F1 /* SVProgressHUD-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "SVProgressHUD-Info.plist"; sourceTree = "<group>"; };
-		C8B9B46DEE606DDDACE4D74351217B9E /* GoogleMapsBase.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GoogleMapsBase.framework; path = Base/Frameworks/GoogleMapsBase.framework; sourceTree = "<group>"; };
-		C8D1ACD996FC8CA684757E0B1577C46E /* Pods-FuelCalculator-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-FuelCalculator-acknowledgements.markdown"; sourceTree = "<group>"; };
-		D8FA2B01B19DA1F8BAB1BC6D79034C3F /* GoogleMaps.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = GoogleMaps.xcconfig; sourceTree = "<group>"; };
-		DBFBC91F373643749E72FC12BFADBB6B /* GooglePlaces.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GooglePlaces.framework; path = Frameworks/GooglePlaces.framework; sourceTree = "<group>"; };
-		E9A8E330834BC616C1DB6908B6AA8ADB /* SVProgressHUD-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SVProgressHUD-prefix.pch"; sourceTree = "<group>"; };
-		EE9324DDAEE1E74091A9B9FC15276941 /* SVProgressHUD.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SVProgressHUD.m; path = SVProgressHUD/SVProgressHUD.m; sourceTree = "<group>"; };
-		F3E11F5A6FBA187820268F1BF9EC4AC7 /* Pods-FuelCalculator-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-FuelCalculator-acknowledgements.plist"; sourceTree = "<group>"; };
-		F4FCFA9A91C28E8F2655AA0C5F877516 /* Pods-FuelCalculator-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-FuelCalculator-resources.sh"; sourceTree = "<group>"; };
-		F8B861DC9AC73E605B80423CB6B43B2D /* SVRadialGradientLayer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SVRadialGradientLayer.h; path = SVProgressHUD/SVRadialGradientLayer.h; sourceTree = "<group>"; };
-		FF041A8316E07DD5BBFB1828A66493CC /* SVProgressHUD.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = SVProgressHUD.modulemap; sourceTree = "<group>"; };
+		AF64B4D28C75E6D6B274598D950E23AF /* Pods-FuelCalculator-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-FuelCalculator-Info.plist"; sourceTree = "<group>"; };
+		BABE1C830C7A5091D04507C568B892D6 /* Pods-FuelCalculator.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FuelCalculator.debug.xcconfig"; sourceTree = "<group>"; };
+		F3D7861CB0256D19E580C2C053A13C17 /* Pods-FuelCalculator.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FuelCalculator.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		1A0C88D20FB529B83D5874C0CECD779E /* Frameworks */ = {
+		8B928B85C03F7FCF0B1AD02B54AFC346 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9A9431811E8EF235FE4A80461D396A8D /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		63751A47CC7ED72E66BF0045108585F4 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				B42ABCFBD8FDC4E45E72CCD9A2D734DF /* Foundation.framework in Frameworks */,
-				04FCEEE48704DE99536B6EB963BCAA1B /* QuartzCore.framework in Frameworks */,
+				AF55DEE23DF52F8B78BDD7F280C5A27E /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		1628BF05B4CAFDCC3549A101F5A10A17 /* Frameworks */ = {
+		4E82E1A8E66D067D02486CAF48C5953C /* Pods-FuelCalculator */ = {
 			isa = PBXGroup;
 			children = (
-				882A293BD79D4DA49D52A901C0171109 /* iOS */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		1832AE0064C1C831797806EB3F07CC92 /* Maps */ = {
-			isa = PBXGroup;
-			children = (
-				21A2BA1739BF3B60139919193B5D831C /* Frameworks */,
-				66D0E2AC29B9E22E13E5088F09AD4AE7 /* Resources */,
-			);
-			name = Maps;
-			sourceTree = "<group>";
-		};
-		21A2BA1739BF3B60139919193B5D831C /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				1B33F90D3D2E9F95A042D2324CC97E67 /* GoogleMaps.framework */,
-				AAF5C44654A6020324DA984CF2734A74 /* GoogleMapsCore.framework */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		36A89B8089BBE78A901390D2A53F9A6E /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				C8B9B46DEE606DDDACE4D74351217B9E /* GoogleMapsBase.framework */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		3B4834E30D1F90CB31DD55649621555B /* GoogleMaps */ = {
-			isa = PBXGroup;
-			children = (
-				AC88BB175A1F6BEB18E970A085B5EEDF /* Base */,
-				1832AE0064C1C831797806EB3F07CC92 /* Maps */,
-				FDF02CEB1D8DD8A9025FA71504F634BC /* Support Files */,
-			);
-			name = GoogleMaps;
-			path = GoogleMaps;
-			sourceTree = "<group>";
-		};
-		3F0195DE5891599E485FD1C12BD7CADB /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				3B4834E30D1F90CB31DD55649621555B /* GoogleMaps */,
-				CF649772DEB4F1899B9CA230D2032F3B /* GooglePlaces */,
-				AE655344518E0D9602A131E5321A574E /* SVProgressHUD */,
-			);
-			name = Pods;
-			sourceTree = "<group>";
-		};
-		6231FCB52AECB2840A32FF079C7D469E /* Resources */ = {
-			isa = PBXGroup;
-			children = (
-				10A38D3843BBC7160F4BCFB873D689DE /* GooglePlaces.bundle */,
-			);
-			name = Resources;
-			sourceTree = "<group>";
-		};
-		66D0E2AC29B9E22E13E5088F09AD4AE7 /* Resources */ = {
-			isa = PBXGroup;
-			children = (
-				B8680A4C70289D9501316A04DD258A48 /* GoogleMaps.bundle */,
-			);
-			name = Resources;
-			sourceTree = "<group>";
-		};
-		743548D42E5107B945EFE4D1485A416E /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				FF041A8316E07DD5BBFB1828A66493CC /* SVProgressHUD.modulemap */,
-				94E7CE296AE7363FFB677FC08467DE4A /* SVProgressHUD.xcconfig */,
-				1774581CC35C4C3EBBA6391CA1518D47 /* SVProgressHUD-dummy.m */,
-				BC304D2C3C53FA896A653368872538F1 /* SVProgressHUD-Info.plist */,
-				E9A8E330834BC616C1DB6908B6AA8ADB /* SVProgressHUD-prefix.pch */,
-				5D1DBD467581AB9D1C9D48C3556F1B96 /* SVProgressHUD-umbrella.h */,
-			);
-			name = "Support Files";
-			path = "../Target Support Files/SVProgressHUD";
-			sourceTree = "<group>";
-		};
-		83149060D1424882ED3C05C66DA4ED46 /* Targets Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				9C0B635045AC1DD85345BFF1D0E3183B /* Pods-FuelCalculator */,
-			);
-			name = "Targets Support Files";
-			sourceTree = "<group>";
-		};
-		882A293BD79D4DA49D52A901C0171109 /* iOS */ = {
-			isa = PBXGroup;
-			children = (
-				73A87EFC1E3074BF96CE56BFE8D51A20 /* Foundation.framework */,
-				93CC5787C4D7225262138F10874B1FB4 /* QuartzCore.framework */,
-			);
-			name = iOS;
-			sourceTree = "<group>";
-		};
-		888DE6F892DF3E24CFC36AB322AFCD7A /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				2B752814A1E969EB960E3840C89AACFE /* GooglePlaces.xcconfig */,
-			);
-			name = "Support Files";
-			path = "../Target Support Files/GooglePlaces";
-			sourceTree = "<group>";
-		};
-		8FA11482AA5F16CED521B4ACF27C0D5C /* Resources */ = {
-			isa = PBXGroup;
-			children = (
-				859B862DED91957C4FEA7953795E6C7B /* SVProgressHUD.bundle */,
-			);
-			name = Resources;
-			sourceTree = "<group>";
-		};
-		9B9894D19F616238F64E4046042A1F11 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				BB9CE32697FA058CA978130C493C8F89 /* Pods_FuelCalculator.framework */,
-				778BAAF5C6820A26B98452EC74323C9A /* SVProgressHUD.framework */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
-		9C0B635045AC1DD85345BFF1D0E3183B /* Pods-FuelCalculator */ = {
-			isa = PBXGroup;
-			children = (
-				6CE5FDF417892753A6FC5F5D95042026 /* Pods-FuelCalculator.modulemap */,
-				C8D1ACD996FC8CA684757E0B1577C46E /* Pods-FuelCalculator-acknowledgements.markdown */,
-				F3E11F5A6FBA187820268F1BF9EC4AC7 /* Pods-FuelCalculator-acknowledgements.plist */,
-				56189219609E57F80562E154606F0B48 /* Pods-FuelCalculator-dummy.m */,
-				B79F9EB9904A4BAADBF301B775D8116C /* Pods-FuelCalculator-frameworks.sh */,
-				8465C1457A105E8C30F94AB855A88EBF /* Pods-FuelCalculator-Info.plist */,
-				F4FCFA9A91C28E8F2655AA0C5F877516 /* Pods-FuelCalculator-resources.sh */,
-				0967A969E120C088AC8AD4EF78B6A987 /* Pods-FuelCalculator-umbrella.h */,
-				AFC1C89C8CE6BFAC4561D9ABAFBCB4D7 /* Pods-FuelCalculator.debug.xcconfig */,
-				64D2AD87B5F1CFE50249D42054B4289B /* Pods-FuelCalculator.release.xcconfig */,
+				3990E95EED0465F22A7C93AACB2D8FBB /* Pods-FuelCalculator.modulemap */,
+				95E6A25D0109A7FEEE01F5E1E64C8D04 /* Pods-FuelCalculator-acknowledgements.markdown */,
+				620DA927A024AF86A20A9DD0732A68BA /* Pods-FuelCalculator-acknowledgements.plist */,
+				28D2A8FDAAE0C9003C8C78B9025A853D /* Pods-FuelCalculator-dummy.m */,
+				AF64B4D28C75E6D6B274598D950E23AF /* Pods-FuelCalculator-Info.plist */,
+				76C460A619602B327F3BC9F3A61A4832 /* Pods-FuelCalculator-umbrella.h */,
+				BABE1C830C7A5091D04507C568B892D6 /* Pods-FuelCalculator.debug.xcconfig */,
+				F3D7861CB0256D19E580C2C053A13C17 /* Pods-FuelCalculator.release.xcconfig */,
 			);
 			name = "Pods-FuelCalculator";
 			path = "Target Support Files/Pods-FuelCalculator";
 			sourceTree = "<group>";
 		};
-		AC88BB175A1F6BEB18E970A085B5EEDF /* Base */ = {
+		5FA4BFD4902897720EE98BA9384BE42C /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				36A89B8089BBE78A901390D2A53F9A6E /* Frameworks */,
+				6530A8C0C0B76225B5E3BC1CF048E6CD /* Pods_FuelCalculator.framework */,
 			);
-			name = Base;
+			name = Products;
 			sourceTree = "<group>";
 		};
-		AE655344518E0D9602A131E5321A574E /* SVProgressHUD */ = {
+		C0834CEBB1379A84116EF29F93051C60 /* iOS */ = {
 			isa = PBXGroup;
 			children = (
-				9684B2F5901D610CEADAED8273A8B5BD /* SVIndefiniteAnimatedView.h */,
-				66D4B9DBFE2405B2D675C7E052FD569C /* SVIndefiniteAnimatedView.m */,
-				262621781B054FC20273AE6ADC1CB81B /* SVProgressAnimatedView.h */,
-				236E83466B40CCEDA893EED807536C59 /* SVProgressAnimatedView.m */,
-				4606B0EE90359490D2267776ED099A78 /* SVProgressHUD.h */,
-				EE9324DDAEE1E74091A9B9FC15276941 /* SVProgressHUD.m */,
-				F8B861DC9AC73E605B80423CB6B43B2D /* SVRadialGradientLayer.h */,
-				67D6EC2A9E7324D7E981E0781440F0AD /* SVRadialGradientLayer.m */,
-				8FA11482AA5F16CED521B4ACF27C0D5C /* Resources */,
-				743548D42E5107B945EFE4D1485A416E /* Support Files */,
+				3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */,
 			);
-			name = SVProgressHUD;
-			path = SVProgressHUD;
+			name = iOS;
 			sourceTree = "<group>";
 		};
 		CF1408CF629C7361332E53B88F7BD30C = {
 			isa = PBXGroup;
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
-				1628BF05B4CAFDCC3549A101F5A10A17 /* Frameworks */,
-				3F0195DE5891599E485FD1C12BD7CADB /* Pods */,
-				9B9894D19F616238F64E4046042A1F11 /* Products */,
-				83149060D1424882ED3C05C66DA4ED46 /* Targets Support Files */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				5FA4BFD4902897720EE98BA9384BE42C /* Products */,
+				F76AA3781A9C5D1AAFEE465D57F5CFDA /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
 		};
-		CF649772DEB4F1899B9CA230D2032F3B /* GooglePlaces */ = {
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				F97C8BABECA4EA13887E5301B2EB6B11 /* Frameworks */,
-				6231FCB52AECB2840A32FF079C7D469E /* Resources */,
-				888DE6F892DF3E24CFC36AB322AFCD7A /* Support Files */,
-			);
-			name = GooglePlaces;
-			path = GooglePlaces;
-			sourceTree = "<group>";
-		};
-		F97C8BABECA4EA13887E5301B2EB6B11 /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				DBFBC91F373643749E72FC12BFADBB6B /* GooglePlaces.framework */,
+				C0834CEBB1379A84116EF29F93051C60 /* iOS */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		FDF02CEB1D8DD8A9025FA71504F634BC /* Support Files */ = {
+		F76AA3781A9C5D1AAFEE465D57F5CFDA /* Targets Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				D8FA2B01B19DA1F8BAB1BC6D79034C3F /* GoogleMaps.xcconfig */,
+				4E82E1A8E66D067D02486CAF48C5953C /* Pods-FuelCalculator */,
 			);
-			name = "Support Files";
-			path = "../Target Support Files/GoogleMaps";
+			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		67BE34E0D3B479850D369B53C640F97C /* Headers */ = {
+		434A3A25D25DBDBFD118ADE94680DA49 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F01C37E89602CF7F32BEC363F8989837 /* SVIndefiniteAnimatedView.h in Headers */,
-				612B9D340C9ABA4AFFC8756CA33F4155 /* SVProgressAnimatedView.h in Headers */,
-				081BA333A15E24126716F36EEC00B6AC /* SVProgressHUD-umbrella.h in Headers */,
-				3D73B98EE5A3218CFCA1D7239B6E7CA9 /* SVProgressHUD.h in Headers */,
-				30E621A7B74B9B1A8B543986ED17468E /* SVRadialGradientLayer.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		6B653E1ED9D27EA1B4AA7245A5F6B04C /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				EE260CA1142E9BD957E6533EEEEE9531 /* Pods-FuelCalculator-umbrella.h in Headers */,
+				676BDC8891036BA21AA74CAD0A54BD14 /* Pods-FuelCalculator-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		381FB1D8E1FBBF76DA842295F6E6310C /* Pods-FuelCalculator */ = {
+		7322CC90389CC9F9ABE703190F24FDE4 /* Pods-FuelCalculator */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 1C1404531561252B87B22B1A772C7F66 /* Build configuration list for PBXNativeTarget "Pods-FuelCalculator" */;
+			buildConfigurationList = 2A3B0526091030DC118540EEC6FDCAB1 /* Build configuration list for PBXNativeTarget "Pods-FuelCalculator" */;
 			buildPhases = (
-				6B653E1ED9D27EA1B4AA7245A5F6B04C /* Headers */,
-				A63587E1FD96A7612F10C2B7BE974FFD /* Sources */,
-				1A0C88D20FB529B83D5874C0CECD779E /* Frameworks */,
-				BBDC3398E2CF0F1419686D0FC5A533E9 /* Resources */,
+				434A3A25D25DBDBFD118ADE94680DA49 /* Headers */,
+				DA5278851890D269F4C2C206DA9775F8 /* Sources */,
+				8B928B85C03F7FCF0B1AD02B54AFC346 /* Frameworks */,
+				906221B3665F5F2808E3923FD6A03F2D /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				350827A89B5B59E5AEE52FCEFCFE876F /* PBXTargetDependency */,
-				186F3486563E07CABA0113F9CFF72D4B /* PBXTargetDependency */,
-				D4175354DEFCD36CEB1332D5F757B313 /* PBXTargetDependency */,
 			);
 			name = "Pods-FuelCalculator";
 			productName = "Pods-FuelCalculator";
-			productReference = BB9CE32697FA058CA978130C493C8F89 /* Pods_FuelCalculator.framework */;
-			productType = "com.apple.product-type.framework";
-		};
-		91754810711B8157AD94A1FA3EAACECC /* SVProgressHUD */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = BF739D668C62A2E60E63E557E3B6A6D4 /* Build configuration list for PBXNativeTarget "SVProgressHUD" */;
-			buildPhases = (
-				67BE34E0D3B479850D369B53C640F97C /* Headers */,
-				7D2B9E6FC8AFB83EE381616E5B38A0FA /* Sources */,
-				63751A47CC7ED72E66BF0045108585F4 /* Frameworks */,
-				36742013858960E7DD5A3C2D71F18F6C /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = SVProgressHUD;
-			productName = SVProgressHUD;
-			productReference = 778BAAF5C6820A26B98452EC74323C9A /* SVProgressHUD.framework */;
+			productReference = 6530A8C0C0B76225B5E3BC1CF048E6CD /* Pods_FuelCalculator.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -422,39 +134,29 @@
 		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastSwiftUpdateCheck = 0930;
-				LastUpgradeCheck = 0930;
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
 			};
 			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
-			compatibilityVersion = "Xcode 3.2";
-			developmentRegion = English;
+			compatibilityVersion = "Xcode 10.0";
+			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
+				Base,
 			);
 			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
-			productRefGroup = 9B9894D19F616238F64E4046042A1F11 /* Products */;
+			productRefGroup = 5FA4BFD4902897720EE98BA9384BE42C /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				BCE3DE68053C99B18AAD56BE1F98BD73 /* GoogleMaps */,
-				1AD73B07D0A43E21F0EE0F993215B9D8 /* GooglePlaces */,
-				381FB1D8E1FBBF76DA842295F6E6310C /* Pods-FuelCalculator */,
-				91754810711B8157AD94A1FA3EAACECC /* SVProgressHUD */,
+				7322CC90389CC9F9ABE703190F24FDE4 /* Pods-FuelCalculator */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		36742013858960E7DD5A3C2D71F18F6C /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				C4FC83C6D128AC248AB478F593832A63 /* SVProgressHUD.bundle in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		BBDC3398E2CF0F1419686D0FC5A533E9 /* Resources */ = {
+		906221B3665F5F2808E3923FD6A03F2D /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -464,57 +166,115 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		7D2B9E6FC8AFB83EE381616E5B38A0FA /* Sources */ = {
+		DA5278851890D269F4C2C206DA9775F8 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7E32820437F64F76E0268810AC920CCD /* SVIndefiniteAnimatedView.m in Sources */,
-				668298A342F33B1ACABA0D7C646F2024 /* SVProgressAnimatedView.m in Sources */,
-				9C82E472E4AA7646436DEAD18A2CA2EC /* SVProgressHUD-dummy.m in Sources */,
-				2E9A61BCDDFE8DD14876E02177E64F31 /* SVProgressHUD.m in Sources */,
-				543A36E155C485A45E0765742877BF5C /* SVRadialGradientLayer.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		A63587E1FD96A7612F10C2B7BE974FFD /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				2F6537DCD4D13B2E438B0E18A8EF2106 /* Pods-FuelCalculator-dummy.m in Sources */,
+				E3CCC02F9B3E032DFCE02900CD1D93AC /* Pods-FuelCalculator-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
-/* Begin PBXTargetDependency section */
-		186F3486563E07CABA0113F9CFF72D4B /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = GooglePlaces;
-			target = 1AD73B07D0A43E21F0EE0F993215B9D8 /* GooglePlaces */;
-			targetProxy = 3D0E98F3739B86F2500EF74F7D1C37EE /* PBXContainerItemProxy */;
-		};
-		350827A89B5B59E5AEE52FCEFCFE876F /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = GoogleMaps;
-			target = BCE3DE68053C99B18AAD56BE1F98BD73 /* GoogleMaps */;
-			targetProxy = 15BE3D82407553CBC163C44A5330C360 /* PBXContainerItemProxy */;
-		};
-		D4175354DEFCD36CEB1332D5F757B313 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = SVProgressHUD;
-			target = 91754810711B8157AD94A1FA3EAACECC /* SVProgressHUD */;
-			targetProxy = CE03D656F75D368C05D1EBA52B4EF797 /* PBXContainerItemProxy */;
-		};
-		D42315111F400C0605ACCD6B5CAF2178 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = GoogleMaps;
-			target = BCE3DE68053C99B18AAD56BE1F98BD73 /* GoogleMaps */;
-			targetProxy = 6EB1C2DD30E6564FC3135C9E8002D8F7 /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
-
 /* Begin XCBuildConfiguration section */
-		07488D4657FB0A78086563621D425F8A /* Debug */ = {
+		5104100505CD29E1C599AC7F4010AE6A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BABE1C830C7A5091D04507C568B892D6 /* Pods-FuelCalculator.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-FuelCalculator/Pods-FuelCalculator-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-FuelCalculator/Pods-FuelCalculator.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		8F17DC3A99F99FBAD606CE6963886315 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		916E0404255105F480DC4950B7625F7A /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -573,14 +333,14 @@
 				STRIP_INSTALLED_PRODUCT = NO;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 4.2;
+				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
 			};
 			name = Debug;
 		};
-		3705BF62A00373DDB041E4170DA75C14 /* Release */ = {
+		99B0BFD5E945448112714D1429D7FD31 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 64D2AD87B5F1CFE50249D42054B4289B /* Pods-FuelCalculator.release.xcconfig */;
+			baseConfigurationReference = F3D7861CB0256D19E580C2C053A13C17 /* Pods-FuelCalculator.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CODE_SIGN_IDENTITY = "";
@@ -613,269 +373,17 @@
 				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		4AA46832D8A16AA4E4811383B204D2A4 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = D8FA2B01B19DA1F8BAB1BC6D79034C3F /* GoogleMaps.xcconfig */;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
-				SDKROOT = iphoneos;
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Debug;
-		};
-		907050E8ED96EF2CF04EC3D293E73BD9 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 2B752814A1E969EB960E3840C89AACFE /* GooglePlaces.xcconfig */;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
-				SDKROOT = iphoneos;
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Debug;
-		};
-		A1962E6FF39BBAC201A2E5DDF99557DF /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				CLANG_ANALYZER_NONNULL = YES;
-				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
-				CLANG_CXX_LIBRARY = "libc++";
-				CLANG_ENABLE_MODULES = YES;
-				CLANG_ENABLE_OBJC_ARC = YES;
-				CLANG_ENABLE_OBJC_WEAK = YES;
-				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
-				CLANG_WARN_BOOL_CONVERSION = YES;
-				CLANG_WARN_COMMA = YES;
-				CLANG_WARN_CONSTANT_CONVERSION = YES;
-				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
-				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
-				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
-				CLANG_WARN_EMPTY_BODY = YES;
-				CLANG_WARN_ENUM_CONVERSION = YES;
-				CLANG_WARN_INFINITE_RECURSION = YES;
-				CLANG_WARN_INT_CONVERSION = YES;
-				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
-				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
-				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
-				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
-				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
-				CLANG_WARN_STRICT_PROTOTYPES = YES;
-				CLANG_WARN_SUSPICIOUS_MOVE = YES;
-				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
-				CLANG_WARN_UNREACHABLE_CODE = YES;
-				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				COPY_PHASE_STRIP = NO;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				ENABLE_NS_ASSERTIONS = NO;
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_C_LANGUAGE_STANDARD = gnu11;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"POD_CONFIGURATION_RELEASE=1",
-					"$(inherited)",
-				);
-				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
-				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
-				GCC_WARN_UNDECLARED_SELECTOR = YES;
-				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
-				GCC_WARN_UNUSED_FUNCTION = YES;
-				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				MTL_ENABLE_DEBUG_INFO = NO;
-				MTL_FAST_MATH = YES;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_COMPILATION_MODE = wholemodule;
-				SWIFT_OPTIMIZATION_LEVEL = "-O";
-				SWIFT_VERSION = 4.2;
-				SYMROOT = "${SRCROOT}/../build";
-			};
-			name = Release;
-		};
-		AA56BA62ABAE4D8402A0C5971F05E0CF /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = AFC1C89C8CE6BFAC4561D9ABAFBCB4D7 /* Pods-FuelCalculator.debug.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-FuelCalculator/Pods-FuelCalculator-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-FuelCalculator/Pods-FuelCalculator.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		B432388171CDF6D50A3055806B714229 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 94E7CE296AE7363FFB677FC08467DE4A /* SVProgressHUD.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/SVProgressHUD/SVProgressHUD-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/SVProgressHUD/SVProgressHUD-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MODULEMAP_FILE = "Target Support Files/SVProgressHUD/SVProgressHUD.modulemap";
-				PRODUCT_MODULE_NAME = SVProgressHUD;
-				PRODUCT_NAME = SVProgressHUD;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.2;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		C7565AEA7FCD8F66CAF546DC5AF1404F /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = D8FA2B01B19DA1F8BAB1BC6D79034C3F /* GoogleMaps.xcconfig */;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
-				SDKROOT = iphoneos;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-			};
-			name = Release;
-		};
-		D03EB94CD69C950FC5ADE0B9E9B72A42 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 94E7CE296AE7363FFB677FC08467DE4A /* SVProgressHUD.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/SVProgressHUD/SVProgressHUD-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/SVProgressHUD/SVProgressHUD-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MODULEMAP_FILE = "Target Support Files/SVProgressHUD/SVProgressHUD.modulemap";
-				PRODUCT_MODULE_NAME = SVProgressHUD;
-				PRODUCT_NAME = SVProgressHUD;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.2;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		DC85D7712D8EE6E340F053BC38E1FB63 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 2B752814A1E969EB960E3840C89AACFE /* GooglePlaces.xcconfig */;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
-				SDKROOT = iphoneos;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		1C1404531561252B87B22B1A772C7F66 /* Build configuration list for PBXNativeTarget "Pods-FuelCalculator" */ = {
+		2A3B0526091030DC118540EEC6FDCAB1 /* Build configuration list for PBXNativeTarget "Pods-FuelCalculator" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				AA56BA62ABAE4D8402A0C5971F05E0CF /* Debug */,
-				3705BF62A00373DDB041E4170DA75C14 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		2FC2AC47FDB0310285CE777F18CD1532 /* Build configuration list for PBXAggregateTarget "GooglePlaces" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				907050E8ED96EF2CF04EC3D293E73BD9 /* Debug */,
-				DC85D7712D8EE6E340F053BC38E1FB63 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		46921981F609C5BA3CB72EC4EA41299D /* Build configuration list for PBXAggregateTarget "GoogleMaps" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				4AA46832D8A16AA4E4811383B204D2A4 /* Debug */,
-				C7565AEA7FCD8F66CAF546DC5AF1404F /* Release */,
+				5104100505CD29E1C599AC7F4010AE6A /* Debug */,
+				99B0BFD5E945448112714D1429D7FD31 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -883,17 +391,8 @@
 		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				07488D4657FB0A78086563621D425F8A /* Debug */,
-				A1962E6FF39BBAC201A2E5DDF99557DF /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		BF739D668C62A2E60E63E557E3B6A6D4 /* Build configuration list for PBXNativeTarget "SVProgressHUD" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				D03EB94CD69C950FC5ADE0B9E9B72A42 /* Debug */,
-				B432388171CDF6D50A3055806B714229 /* Release */,
+				916E0404255105F480DC4950B7625F7A /* Debug */,
+				8F17DC3A99F99FBAD606CE6963886315 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

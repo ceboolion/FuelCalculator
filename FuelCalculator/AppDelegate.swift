@@ -2,7 +2,6 @@
 //  Copyright © 2019 Roman Cebula. All rights reserved.
 
 import UIKit
-import GoogleMaps
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {

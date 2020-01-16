@@ -10,9 +10,9 @@
 		C82851F32238FC7B00C98B6B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C82851F22238FC7B00C98B6B /* Assets.xcassets */; };
 		C82851F522390B0400C98B6B /* GoBack.swift in Sources */ = {isa = PBXBuildFile; fileRef = C82851F422390B0400C98B6B /* GoBack.swift */; };
 		C85FB9672232A411005D6CC2 /* CustomButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = C85FB9662232A411005D6CC2 /* CustomButton.swift */; };
-		C85FB96B2236F5EA005D6CC2 /* Map.swift in Sources */ = {isa = PBXBuildFile; fileRef = C85FB96A2236F5EA005D6CC2 /* Map.swift */; };
+		C85FB96B2236F5EA005D6CC2 /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C85FB96A2236F5EA005D6CC2 /* MapViewController.swift */; };
 		C86C07D921FDB97000B7654E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C86C07D821FDB97000B7654E /* AppDelegate.swift */; };
-		C86C07DB21FDB97000B7654E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C86C07DA21FDB97000B7654E /* ViewController.swift */; };
+		C86C07DB21FDB97000B7654E /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C86C07DA21FDB97000B7654E /* MainViewController.swift */; };
 		C86C07DE21FDB97000B7654E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C86C07DC21FDB97000B7654E /* Main.storyboard */; };
 		C86C07E321FDB97300B7654E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C86C07E121FDB97300B7654E /* LaunchScreen.storyboard */; };
 		C8AD5B5722281F3800008B1C /* ResultViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8AD5B5622281F3800008B1C /* ResultViewController.swift */; };
@@ -25,10 +25,10 @@
 		C82851F22238FC7B00C98B6B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C82851F422390B0400C98B6B /* GoBack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoBack.swift; sourceTree = "<group>"; };
 		C85FB9662232A411005D6CC2 /* CustomButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomButton.swift; sourceTree = "<group>"; };
-		C85FB96A2236F5EA005D6CC2 /* Map.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Map.swift; sourceTree = "<group>"; };
+		C85FB96A2236F5EA005D6CC2 /* MapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
 		C86C07D521FDB97000B7654E /* FuelCalculator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FuelCalculator.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C86C07D821FDB97000B7654E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		C86C07DA21FDB97000B7654E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		C86C07DA21FDB97000B7654E /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 		C86C07DD21FDB97000B7654E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		C86C07E221FDB97300B7654E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C86C07E421FDB97300B7654E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -78,18 +78,42 @@
 		C86C07D721FDB97000B7654E /* FuelCalculator */ = {
 			isa = PBXGroup;
 			children = (
-				C85FB96A2236F5EA005D6CC2 /* Map.swift */,
+				C8F4D62123CEDFEE000F9ABA /* Model */,
 				C86C07D821FDB97000B7654E /* AppDelegate.swift */,
 				C85FB9662232A411005D6CC2 /* CustomButton.swift */,
 				C82851F422390B0400C98B6B /* GoBack.swift */,
-				C86C07DA21FDB97000B7654E /* ViewController.swift */,
-				C8AD5B5622281F3800008B1C /* ResultViewController.swift */,
-				C86C07DC21FDB97000B7654E /* Main.storyboard */,
-				C86C07E121FDB97300B7654E /* LaunchScreen.storyboard */,
+				C8F4D61F23CEDF83000F9ABA /* Controller */,
+				C8F4D62023CEDFA2000F9ABA /* View */,
 				C82851F22238FC7B00C98B6B /* Assets.xcassets */,
 				C86C07E421FDB97300B7654E /* Info.plist */,
 			);
 			path = FuelCalculator;
+			sourceTree = "<group>";
+		};
+		C8F4D61F23CEDF83000F9ABA /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				C86C07DA21FDB97000B7654E /* MainViewController.swift */,
+				C8AD5B5622281F3800008B1C /* ResultViewController.swift */,
+				C85FB96A2236F5EA005D6CC2 /* MapViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		C8F4D62023CEDFA2000F9ABA /* View */ = {
+			isa = PBXGroup;
+			children = (
+				C86C07DC21FDB97000B7654E /* Main.storyboard */,
+				C86C07E121FDB97300B7654E /* LaunchScreen.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		C8F4D62123CEDFEE000F9ABA /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 		D4317D4B83DE34AD03E3056E /* Frameworks */ = {
@@ -111,8 +135,6 @@
 				C86C07D121FDB97000B7654E /* Sources */,
 				C86C07D221FDB97000B7654E /* Frameworks */,
 				C86C07D321FDB97000B7654E /* Resources */,
-				B15B858C0F9FBFEADA2E2845 /* [CP] Copy Pods Resources */,
-				2745C8419D92A54B2BBCAB8C /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -135,6 +157,7 @@
 				TargetAttributes = {
 					C86C07D421FDB97000B7654E = {
 						CreatedOnToolsVersion = 10.1;
+						LastSwiftMigration = 1130;
 					};
 				};
 			};
@@ -170,28 +193,6 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		2745C8419D92A54B2BBCAB8C /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-FuelCalculator/Pods-FuelCalculator-frameworks.sh",
-				"${BUILT_PRODUCTS_DIR}/SVProgressHUD/SVProgressHUD.framework",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SVProgressHUD.framework",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-FuelCalculator/Pods-FuelCalculator-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
 		69E615E69DA7A2128B632598 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -214,30 +215,6 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		B15B858C0F9FBFEADA2E2845 /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-FuelCalculator/Pods-FuelCalculator-resources.sh",
-				"${PODS_ROOT}/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Resources/GoogleMaps.bundle",
-				"${PODS_ROOT}/GooglePlaces/Frameworks/GooglePlaces.framework/Resources/GooglePlaces.bundle",
-			);
-			name = "[CP] Copy Pods Resources";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/GoogleMaps.bundle",
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/GooglePlaces.bundle",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-FuelCalculator/Pods-FuelCalculator-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -245,10 +222,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C85FB96B2236F5EA005D6CC2 /* Map.swift in Sources */,
+				C85FB96B2236F5EA005D6CC2 /* MapViewController.swift in Sources */,
 				C85FB9672232A411005D6CC2 /* CustomButton.swift in Sources */,
 				C82851F522390B0400C98B6B /* GoBack.swift in Sources */,
-				C86C07DB21FDB97000B7654E /* ViewController.swift in Sources */,
+				C86C07DB21FDB97000B7654E /* MainViewController.swift in Sources */,
 				C86C07D921FDB97000B7654E /* AppDelegate.swift in Sources */,
 				C8AD5B5722281F3800008B1C /* ResultViewController.swift in Sources */,
 			);
@@ -400,15 +377,15 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = WKZW55ZWGS;
 				INFOPLIST_FILE = FuelCalculator/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.Tzebulion.FuelCalculator;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.2;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -420,15 +397,15 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = WKZW55ZWGS;
 				INFOPLIST_FILE = FuelCalculator/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.Tzebulion.FuelCalculator;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.2;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
