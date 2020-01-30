@@ -55,7 +55,9 @@ class MapViewController: UIViewController {
             break
         case .authorizedAlways:
             break
-        }
+        @unknown default:
+          fatalError()
+      }
     }
     
     @IBAction func goBack(_ sender: GoBack) {
