@@ -4,11 +4,6 @@
 import UIKit
 
 class GoBack: UIButton {
-
-    override init(frame: CGRect){
-        super.init(frame: frame)
-        setUpButton()
-    }
     
     required init?(coder aDecoder: NSCoder){
         super.init(coder: aDecoder)

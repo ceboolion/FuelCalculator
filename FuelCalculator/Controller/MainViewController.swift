@@ -7,11 +7,11 @@ class MainViewController: UIViewController, UITextFieldDelegate {
   
   var calculateButtonDesign = CustomButton()
   
-  @IBOutlet var calculateButton: UIButton!
-  @IBOutlet var distanceInKmTextField: UITextField!
-  @IBOutlet var fuelPriceTextField: UITextField!
-  @IBOutlet var fuelConsumptionTextField: UITextField!
-  @IBOutlet var errorMessageLabel: UILabel!
+  @IBOutlet private var calculateButton: UIButton!
+  @IBOutlet private var distanceInKmTextField: UITextField!
+  @IBOutlet private var fuelPriceTextField: UITextField!
+  @IBOutlet private var fuelConsumptionTextField: UITextField!
+  @IBOutlet private var errorMessageLabel: UILabel!
   
   private var kilometersValue: Double?
   private var fuelPrice: Double?
@@ -21,11 +21,7 @@ class MainViewController: UIViewController, UITextFieldDelegate {
   override func viewDidLoad() {
     super.viewDidLoad()
     // Do any additional setup after loading the view, typically from a nib.
-    distanceInKmTextField.delegate = self
-    fuelPriceTextField.delegate = self
-    fuelConsumptionTextField.delegate = self
-    fuelConsumptionTextField.text = String(fuelConsumption)
-//    fuelConsumptionTextField.
+    textFieldsSetup()
     shakeButton()
     self.hideKeyboard()
   }
@@ -42,7 +38,7 @@ class MainViewController: UIViewController, UITextFieldDelegate {
   private func calculateTrip() {
     kilometersValue = Double(distanceInKmTextField.text!)
     fuelPrice = Double(fuelPriceTextField.text!)
-//    fuelConsumption = Double(fuelConsumptionTextField.text!)
+    //    fuelConsumption = Double(fuelConsumptionTextField.text!)
     
     if kilometersValue == nil || fuelPrice == nil {
       errorMessageLabel.text = "Fill all required fields"
@@ -52,6 +48,13 @@ class MainViewController: UIViewController, UITextFieldDelegate {
       performSegue(withIdentifier: "nextScreen", sender: self)
       print("Ilość litrów potrzebnych na wycieczkę to: " + String(format:"%.2f", calculations!) + " zł")
     }
+  }
+  
+  private func textFieldsSetup(){
+    distanceInKmTextField.delegate = self
+    fuelPriceTextField.delegate = self
+    fuelConsumptionTextField.delegate = self
+    fuelConsumptionTextField.text = String(fuelConsumption)
   }
   
   override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
@@ -110,25 +113,25 @@ class MainViewController: UIViewController, UITextFieldDelegate {
   }
   
   @IBAction func fuelConsumptionDataPressed(_ sender: UIButton) {
-      if sender.tag == 1{
-        fuelConsumption -= 0.5
-        fuelConsumptionTextField.text = String(fuelConsumption)
-        if fuelConsumption < 0.0 {
-          fuelConsumption = 0.0
-        }
-      } else {
-        fuelConsumption += 0.5
-        fuelConsumptionTextField.text = String(fuelConsumption)
+    if sender.tag == 1{
+      fuelConsumption -= 0.5
+      fuelConsumptionTextField.text = String(fuelConsumption)
+      if fuelConsumption < 0.5 {
+        fuelConsumption = 0.5
       }
-   
+    } else {
+      fuelConsumption += 0.5
+      fuelConsumptionTextField.text = String(fuelConsumption)
+    }
     
-//    if sender.tag == 1{
-//        fuelConsumption -= 0.5
-//        fuelConsumptionTextField.text = String(fuelConsumption)
-//      } else {
-//        fuelConsumption += 0.5
-//        fuelConsumptionTextField.text = String(fuelConsumption)
-//      }
+    
+    //    if sender.tag == 1{
+    //        fuelConsumption -= 0.5
+    //        fuelConsumptionTextField.text = String(fuelConsumption)
+    //      } else {
+    //        fuelConsumption += 0.5
+    //        fuelConsumptionTextField.text = String(fuelConsumption)
+    //      }
     
   }
   
